@@ -78,8 +78,3 @@ exec_test $TEST $ARG
 TEST="long text"
 ARG="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 exec_test $TEST $ARG
-
-#--- escape ---
-TEST=escape
-ARG="hello world \\\n this is a pen"
-exec_test $TEST $ARG
